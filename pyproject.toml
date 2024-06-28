@@ -7,7 +7,7 @@ authors = [
 description = "RobotFramework bindings for controlling the Minecraft Console Client Websocket bot"
 readme = "README.md"
 requires-python = ">=3.8"
-dependencies = ["websockets"]
+dependencies = ["websockets", "mcc.py"]
 
 [project.urls]
 Homepage = "https://github.com/Zorua162/robotframework-minecraftconsoleclientbindings"

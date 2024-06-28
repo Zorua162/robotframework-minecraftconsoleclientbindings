@@ -1,1 +1,2 @@
 mcc.py
+robotframework-minecraftconsoleclientbindings

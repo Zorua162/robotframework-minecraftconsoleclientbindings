@@ -3,9 +3,8 @@ name: Publish
 
 on:
   push:
-    paths:
-      tags:
-       - 'release/*'
+    tags:
+      - 'release/*'
 
 jobs:
   publish-to-pypi:

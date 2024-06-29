@@ -1,6 +1,6 @@
 [project]
 name = "robotframework-minecraftconsoleclientbindings"
-version = "0.0.1-pre2"
+version = "0.0.2"
 authors = [
   { name="zorua162", email="zorua162@gmail.com" },
 ]

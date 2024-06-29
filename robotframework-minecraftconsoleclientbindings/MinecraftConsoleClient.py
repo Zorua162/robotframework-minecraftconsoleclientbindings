@@ -1,4 +1,5 @@
 import logging
+import os
 from logging import FileHandler
 
 # For instantiating classes
@@ -15,7 +16,12 @@ from mcc.command import Command
 
 logger = logging.getLogger("MCCRobotLibrary")
 
-logger.addHandler(FileHandler("./output/MCCRobotLibrary.log"))
+output_folder = "./output"
+
+if not os.path.exists(output_folder):
+    os.makedirs(output_folder)
+
+logger.addHandler(FileHandler(f"{output_folder}/MCCRobotLibrary.log"))
 
 
 class RobotChatBot(ChatBot):
